@@ -26,7 +26,7 @@ var __webpack_exports__ = {};
    * ---------------------------------------------------------- */
 
 
-  $(document).on("submit", "#voting_form", function (e) {
+  $(document).on("click", "#voting_form_submit", function (e) {
     e.preventDefault(); // Remove errors
 
     $('form#voting_form .form-control').each(function () {

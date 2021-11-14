@@ -18,7 +18,7 @@
     /** ------------------------------------------------------------
      * Submit voting form
      * ---------------------------------------------------------- */
-    $(document).on("submit", "#voting_form", function (e) {
+    $(document).on("click", "#voting_form_submit", function (e) {
         e.preventDefault();
 
         // Remove errors

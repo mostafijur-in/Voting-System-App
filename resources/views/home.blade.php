@@ -66,7 +66,7 @@
 
                     @csrf
                     <div id="voting_form_status" class="my-3" style="max-width:600px;"></div>
-                    <button type="submit" id="voting_form_submit" class="btn btn-primary">Submit</button>
+                    <button type="button" id="voting_form_submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
